@@ -1,0 +1,9 @@
+<pre ng-repeat="(key, value) in data">
+GPS: {{ value.body }}
+Reporter: {{ value.user.login }}
+Title: {{ value.title }}
+Label: {{ value.labels[key].name }}
+</pre>
+<pre>
+	{{data | json}}
+</pre>

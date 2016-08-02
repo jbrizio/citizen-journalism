@@ -1,0 +1,11 @@
+{
+  "name": "citizen-journalism",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.4.0"
+  },
+  "devDependencies": {
+  },
+  "appPath": "app",
+  "moduleName": "citizenJournalismApp"
+}

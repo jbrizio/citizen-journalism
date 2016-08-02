@@ -1,0 +1,21 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.navbar.navbar-default {
+	margin-bottom: 0;
+}
+
+.map-fullsize {
+	width: 100%;
+	height: 100%;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
