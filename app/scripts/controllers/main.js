@@ -17,7 +17,7 @@
 
 		  	vm.showDetail = function(e, point) {
 				$rootScope.marker = point;
-				vm.map.showInfoWindow('info-window-data', point.id);
+				vm.map.showInfoWindow('info-window-data', this);
 			};
 
 		    $http.get('https://api.github.com/repos/jbrizio/citizen-journalism/issues')
